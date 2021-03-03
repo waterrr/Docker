@@ -14,7 +14,7 @@ docker -d -p 3344:5244 --name Alist -v /home/Alist/conf.yml:/home/Alist/conf.yml
 
 ```
 
-Tips:
+Tips:  
 本地数据持久化，如果需要修改配置先运行`docker stop Alist`，然后直接修改目录下的`conf.yml`文件（无需进入容器），修改完成保存后`docekr start Alist`  
 
 ### docker-compose.yml Coming Soon
