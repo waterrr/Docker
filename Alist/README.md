@@ -10,7 +10,7 @@ Usage:
 docker build -f Dockerfile -t alist .
 
 #Run it
-docker run --restart=always -d -p 127.0.0.1:5244:5244 --name alist -v /opt/alist/conf.yml:/home/alist/conf.yml -v /opt/alist/log.log:/home/alist/log.log alist
+docker run --restart=always -d -p 127.0.0.1:5244:5244 --name alist -v /opt/alist/conf.yml:/home/alist/conf.yml alist
 ```
 
 Tips:  
