@@ -10,7 +10,7 @@ Usage:
 docker build -f Dockerfile -t alist .
 
 #Run it
-docker -d -p 3344:5244 --name Alist -v /home/Alist/conf.yml:/home/Alist/conf.yml alist
+docker up --restart=always -d -p 3344:5244 --name Alist -v /home/Alist/conf.yml:/home/Alist/conf.yml alist
 
 ```
 
