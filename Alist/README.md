@@ -14,8 +14,8 @@ docker run --restart=always -d -p 127.0.0.1:5244:5244 --name alist -v /opt/alist
 ```
 
 Tips:  
-本地数据持久化，如果需要修改配置先运行`docker stop Alist`，然后直接修改目录下的`conf.yml`文件（无需进入容器），修改完成保存后`docekr start Alist`  
-首次启动较慢大概需要等待2分钟
+本地数据持久化，如果需要修改配置先运行`docker stop alist`，然后直接修改目录下的`conf.yml`文件（无需进入容器），修改完成保存后`docekr start alist`  
+
 
 
 ### docker-compose.yml Coming Soon
